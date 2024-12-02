@@ -20,7 +20,7 @@ from mst_prd p
 left join MST_PRDCAT_REF pc on p.prdcat_key=pc.prdcat_key
 where p.selling_ind='1' 
 and p.status='A'
-and pc.prdcat2_cd in ('Mevius','Winston')
+and pc.prdcat2_cd in ('A','B')
 
 /*****Saleman*****/
 SELECT 
